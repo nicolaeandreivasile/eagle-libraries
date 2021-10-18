@@ -20,6 +20,6 @@
 
 ## Texas Instruments
 
-## Vishay General Semiconductors
+## Vishay Semiconductors
 
 ## Wurth Elektronik
