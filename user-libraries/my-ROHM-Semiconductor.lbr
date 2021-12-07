@@ -60,25 +60,25 @@
 <library>
 <packages>
 <package name="SSOP5">
-<smd name="5" x="-0.95" y="1.6" dx="1" dy="0.6" layer="1" rot="R90"/>
-<smd name="4" x="0.95" y="1.6" dx="1" dy="0.6" layer="1" rot="R90"/>
-<smd name="1" x="-0.95" y="-0.8" dx="1" dy="0.6" layer="1" rot="R90"/>
-<smd name="2" x="0" y="-0.8" dx="1" dy="0.6" layer="1" rot="R90"/>
-<smd name="3" x="0.95" y="-0.8" dx="1" dy="0.6" layer="1" rot="R90"/>
-<wire x1="1.45" y1="-0.2" x2="1.45" y2="1" width="0.1524" layer="21"/>
-<wire x1="-1.45" y1="-0.2" x2="-1.45" y2="1" width="0.1524" layer="21"/>
-<circle x="-2" y="-0.8" radius="0.05" width="0.1524" layer="21"/>
-<wire x1="-1.3" y1="1.2" x2="1.25" y2="1.2" width="0.1524" layer="21"/>
-<wire x1="-1.3" y1="-0.4" x2="1.3" y2="-0.4" width="0.1524" layer="21"/>
-<text x="-2.54" y="2.54" size="1.016" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.016" layer="27">&gt;VALUE</text>
+<smd name="5" x="-0.95" y="1.6" dx="1" dy="0.6" layer="1" locked="yes" rot="R90"/>
+<smd name="4" x="0.95" y="1.6" dx="1" dy="0.6" layer="1" locked="yes" rot="R90"/>
+<smd name="1" x="-0.95" y="-0.8" dx="1" dy="0.6" layer="1" locked="yes" rot="R90"/>
+<smd name="2" x="0" y="-0.8" dx="1" dy="0.6" layer="1" locked="yes" rot="R90"/>
+<smd name="3" x="0.95" y="-0.8" dx="1" dy="0.6" layer="1" locked="yes" rot="R90"/>
+<wire x1="1.45" y1="-0.2" x2="1.45" y2="1" width="0.1524" layer="21" locked="yes"/>
+<wire x1="-1.45" y1="-0.2" x2="-1.45" y2="1" width="0.1524" layer="21" locked="yes"/>
+<circle x="-2" y="-0.8" locked="yes" radius="0.05" width="0.1524" layer="21"/>
+<wire x1="-1.3" y1="1.2" x2="1.25" y2="1.2" width="0.1524" layer="21" locked="yes"/>
+<wire x1="-1.3" y1="-0.4" x2="1.3" y2="-0.4" width="0.1524" layer="21" locked="yes"/>
+<text x="-2.54" y="2.54" locked="yes" size="1.016" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-2.54" locked="yes" size="1.016" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
 <symbol name="BD48E27G-TR">
 <pin name="VDD" x="-5.08" y="10.16" length="middle"/>
-<pin name="N.C.4" x="-5.08" y="7.62" length="middle"/>
-<pin name="N.C.5" x="-5.08" y="5.08" length="middle"/>
+<pin name="NC@1" x="-5.08" y="7.62" length="middle"/>
+<pin name="NC@2" x="-5.08" y="5.08" length="middle"/>
 <pin name="GND" x="-5.08" y="2.54" length="middle"/>
 <pin name="VOUT" x="21.59" y="10.16" length="middle" rot="R180"/>
 <wire x1="0" y1="12.7" x2="0" y2="0" width="0.254" layer="94"/>
@@ -98,8 +98,8 @@
 <device name="" package="SSOP5">
 <connects>
 <connect gate="G$1" pin="GND" pad="3"/>
-<connect gate="G$1" pin="N.C.4" pad="4"/>
-<connect gate="G$1" pin="N.C.5" pad="5"/>
+<connect gate="G$1" pin="NC@1" pad="4"/>
+<connect gate="G$1" pin="NC@2" pad="5"/>
 <connect gate="G$1" pin="VDD" pad="2"/>
 <connect gate="G$1" pin="VOUT" pad="1"/>
 </connects>
@@ -112,4 +112,10 @@
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="8.5" severity="warning">
+Since Version 8.5, EAGLE supports locking for holes, vias, wires and polygons. 
+The locking property on all objects of these types will not be understood in this version. 
+</note>
+</compatibility>
 </eagle>
