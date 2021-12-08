@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -245,10 +245,10 @@
 <pin name="USB_DP" x="86.36" y="68.58" length="middle" rot="R180"/>
 <pin name="USB_DM" x="86.36" y="71.12" length="middle" rot="R180"/>
 <pin name="USB_VBUS" x="86.36" y="73.66" length="middle" rot="R180"/>
-<wire x1="0" y1="76.2" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="81.28" y2="0" width="0.254" layer="94"/>
-<wire x1="81.28" y1="0" x2="81.28" y2="76.2" width="0.254" layer="94"/>
-<wire x1="81.28" y1="76.2" x2="0" y2="76.2" width="0.254" layer="94"/>
+<wire x1="0" y1="76.2" x2="0" y2="0" width="0.508" layer="94"/>
+<wire x1="0" y1="0" x2="81.28" y2="0" width="0.508" layer="94"/>
+<wire x1="81.28" y1="0" x2="81.28" y2="76.2" width="0.508" layer="94"/>
+<wire x1="81.28" y1="76.2" x2="0" y2="76.2" width="0.508" layer="94"/>
 <text x="0" y="78.74" size="2.54" layer="95">&gt;NAME</text>
 <text x="0" y="-5.08" size="2.54" layer="96">&gt;VALUE</text>
 </symbol>

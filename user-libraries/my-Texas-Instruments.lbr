@@ -94,6 +94,7 @@
 </symbols>
 <devicesets>
 <deviceset name="LM2576SX-3.3/NOPB">
+<description>Switching Voltage Regulators 3A SD VTG Reg</description>
 <gates>
 <gate name="G$1" symbol="LM2576" x="0" y="0"/>
 </gates>

@@ -14,7 +14,7 @@
 
 ## Espressif Systems
 1. **ESP32-U4WDH** - RF System on a Chip - SoC SMD IC WiFi Single Core BT Combo
-2. **ESP32-WROVER-E/IE** - WiFi Modules - 802.11 SMD Module ESP32-WROVER-E, ESP32-D0WD-V3, 3.3V 64Mbit PSRAM, 8 MB SPI flash, PCB Antenna
+2. **ESP32-WROVER-E/IE** - WiFi Modules - 802.11 SMD Module ESP32-WROVER-E, ESP32-D0WD-V3, 3.3V 64Mbit PSRAM, 8/16 MB SPI flash, PCB Antenna
 
 ## Microchip Technology
 1. **48L256T-I/SN** - SRAM Serial SRAM with Nonvolatile bits, 256K bit SPI

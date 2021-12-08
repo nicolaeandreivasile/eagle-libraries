@@ -320,6 +320,7 @@
 </symbols>
 <devicesets>
 <deviceset name="ESP32-U4WDH">
+<description>RF System on a Chip - SoC SMD IC WiFi Single Core BT Combo</description>
 <gates>
 <gate name="G$1" symbol="ESP32" x="-76.2" y="33.02"/>
 </gates>
@@ -381,6 +382,7 @@
 </devices>
 </deviceset>
 <deviceset name="ESP32-WROVER-E/IE">
+<description>WiFi Modules - 802.11 SMD Module ESP32-WROVER-E, ESP32-D0WD-V3, 3.3V 64Mbit PSRAM, 8/16 MB SPI flash, PCB Antenna</description>
 <gates>
 <gate name="G$1" symbol="ESP32-WROVER" x="-5.08" y="-35.56"/>
 </gates>
