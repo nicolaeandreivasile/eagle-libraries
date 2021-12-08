@@ -19,6 +19,7 @@
 ## Microchip Technology
 1. **48L256T-I/SN** - SRAM Serial SRAM with Nonvolatile bits, 256K bit SPI
 2. **MCP7940M-I/SN** - Real Time Clock I2C RTCC 64B SRAM No VBAT
+3. **MCP7940N-I/SN** - Real Time Clock I2C GP RTCC 64B SRAM
 
 ## Quectel
 1. **EC20CEFASG-MINIPCIE** - Sub-GHz Modules CAT 4
