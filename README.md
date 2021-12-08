@@ -29,6 +29,7 @@
 
 ## STMicroelectronics
 1. **M95M01-DWDW3TP/K** - EEPROM Auto 1024Kb SPI bus EEPROM
+1. **M95M01-DWMN3TP/K** - EEPROM Auto 1024Kb SPI bus EEPROM
 
 ## Texas Instruments
 1. **LM2576SX-3.3/NOPB** - Switching Voltage Regulators 3A SD VTG Reg
