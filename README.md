@@ -30,7 +30,7 @@
 1. **M95M01-DWDW3TP/K** - EEPROM Auto 1024Kb SPI bus EEPROM
 
 ## Texas Instruments
-1. **LM2576HVSX-3.3/NOPB** - Switching Voltage Regulators SIMPLE SWITCHER; 4V to 60V, 3A Low Component Count Step-Down Regulator 5-DDPAK/TO-263 -40 to 125
+1. **LM2576SX-3.3/NOPB** - Switching Voltage Regulators 3A SD VTG Reg
 
 ## Vishay Semiconductors
 1. **V3PM6-M3/H** - Schottky Diodes & Rectifiers 60V 3A TMBS SMP (DO-220AA)
