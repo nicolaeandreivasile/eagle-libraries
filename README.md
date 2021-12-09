@@ -9,6 +9,9 @@
 ## Eagle Plastic Devices
 1. **12BHC186CLP-GR** - Cylindrical Battery Contacts, Clips, Holders & Springs 18650 Holder Board Mount Clip
 
+## ECS Inc
+1. **ECS-.327-12.5-12QS-TR** - Crystals 32.786kHz 12.5pF 20ppm -40C +125C
+
 ## Epson Timing
 1. **FC-135 32.7680KA-AG0** - Crystals 32.768KHz 20ppm 7.0pF -40C +85C
 
