@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -204,74 +204,120 @@
 </packages>
 <symbols>
 <symbol name="EC20-R2.1">
-<pin name="DBG_TXD" x="-5.08" y="48.26" length="middle"/>
-<pin name="DBG_RXD" x="-5.08" y="50.8" length="middle"/>
-<pin name="USIM_GND" x="-5.08" y="40.64" length="middle"/>
-<pin name="GND" x="-5.08" y="2.54" length="middle"/>
-<pin name="VDD_EXT" x="-5.08" y="73.66" length="middle"/>
-<pin name="NET_STATUS" x="-5.08" y="60.96" length="middle"/>
-<pin name="NET_MODE" x="-5.08" y="63.5" length="middle"/>
-<pin name="W_DISABLE#" x="-5.08" y="66.04" length="middle"/>
-<pin name="RESERVED" x="-5.08" y="7.62" length="middle"/>
-<pin name="AP_READY" x="-5.08" y="68.58" length="middle"/>
-<pin name="WAKEUP_IN" x="-5.08" y="55.88" length="middle"/>
-<pin name="ANT_MAIN" x="86.36" y="20.32" length="middle" rot="R180"/>
-<pin name="ANT_GNSS" x="86.36" y="17.78" length="middle" rot="R180"/>
-<pin name="ADC0" x="86.36" y="12.7" length="middle" rot="R180"/>
-<pin name="ADC1" x="86.36" y="10.16" length="middle" rot="R180"/>
-<pin name="I2C_SDA" x="86.36" y="5.08" length="middle" rot="R180"/>
-<pin name="I2C_SCL" x="86.36" y="2.54" length="middle" rot="R180"/>
-<pin name="DCD" x="86.36" y="48.26" length="middle" rot="R180"/>
-<pin name="RI" x="86.36" y="45.72" length="middle" rot="R180"/>
-<pin name="STATUS" x="86.36" y="40.64" length="middle" rot="R180"/>
-<pin name="VBAT_BB" x="86.36" y="33.02" length="middle" rot="R180"/>
-<pin name="VBAT_RF" x="86.36" y="30.48" length="middle" rot="R180"/>
-<pin name="USIM_VDD" x="-5.08" y="43.18" length="middle"/>
-<pin name="USIM_DATA" x="-5.08" y="38.1" length="middle"/>
-<pin name="USIM_CLK" x="-5.08" y="35.56" length="middle"/>
-<pin name="USIM_RST" x="-5.08" y="33.02" length="middle"/>
-<pin name="RESET_N" x="-5.08" y="27.94" length="middle"/>
-<pin name="PWRKEY" x="-5.08" y="25.4" length="middle"/>
-<pin name="PCM_IN" x="-5.08" y="20.32" length="middle"/>
-<pin name="PCM_OUT" x="-5.08" y="17.78" length="middle"/>
-<pin name="PCM_SYNC" x="-5.08" y="15.24" length="middle"/>
-<pin name="PCM_CLK" x="-5.08" y="12.7" length="middle"/>
-<pin name="ANT_DIV" x="86.36" y="22.86" length="middle" rot="R180"/>
-<pin name="CTS" x="86.36" y="50.8" length="middle" rot="R180"/>
-<pin name="RTS" x="86.36" y="53.34" length="middle" rot="R180"/>
-<pin name="DTR" x="86.36" y="55.88" length="middle" rot="R180"/>
-<pin name="TXD" x="86.36" y="60.96" length="middle" rot="R180"/>
-<pin name="RXD" x="86.36" y="63.5" length="middle" rot="R180"/>
-<pin name="USB_DP" x="86.36" y="68.58" length="middle" rot="R180"/>
-<pin name="USB_DM" x="86.36" y="71.12" length="middle" rot="R180"/>
-<pin name="USB_VBUS" x="86.36" y="73.66" length="middle" rot="R180"/>
-<wire x1="0" y1="76.2" x2="0" y2="0" width="0.508" layer="94"/>
-<wire x1="0" y1="0" x2="81.28" y2="0" width="0.508" layer="94"/>
-<wire x1="81.28" y1="0" x2="81.28" y2="76.2" width="0.508" layer="94"/>
-<wire x1="81.28" y1="76.2" x2="0" y2="76.2" width="0.508" layer="94"/>
-<text x="0" y="78.74" size="2.54" layer="95">&gt;NAME</text>
-<text x="0" y="-5.08" size="2.54" layer="96">&gt;VALUE</text>
+<pin name="VBAT_BB" x="-5.08" y="-2.54" length="middle"/>
+<pin name="VBAT_RF" x="-5.08" y="-5.08" length="middle"/>
+<pin name="VDD_EXT" x="-5.08" y="-7.62" length="middle"/>
+<pin name="GND" x="-5.08" y="-124.46" length="middle"/>
+<pin name="PWRKEY" x="-5.08" y="-12.7" length="middle"/>
+<pin name="RESET_N" x="-5.08" y="-15.24" length="middle"/>
+<pin name="STATUS" x="-5.08" y="-40.64" length="middle"/>
+<pin name="NET_MODE" x="-5.08" y="-43.18" length="middle"/>
+<pin name="NET_STATUS" x="-5.08" y="-45.72" length="middle"/>
+<pin name="USB_VBUS" x="-5.08" y="-55.88" length="middle"/>
+<pin name="USB_DP" x="-5.08" y="-58.42" length="middle"/>
+<pin name="USB_DM" x="-5.08" y="-60.96" length="middle"/>
+<pin name="USIM_GND" x="-5.08" y="-66.04" length="middle"/>
+<pin name="USIM_VDD" x="-5.08" y="-68.58" length="middle"/>
+<pin name="USIM_CLK" x="-5.08" y="-73.66" length="middle"/>
+<pin name="USIM_DATA" x="-5.08" y="-71.12" length="middle"/>
+<pin name="USIM_RST" x="-5.08" y="-76.2" length="middle"/>
+<pin name="USIM_PRESENCE" x="-5.08" y="-78.74" length="middle"/>
+<pin name="RI" x="-5.08" y="-83.82" length="middle"/>
+<pin name="DCD" x="-5.08" y="-86.36" length="middle"/>
+<pin name="CTS" x="-5.08" y="-88.9" length="middle"/>
+<pin name="RTS" x="-5.08" y="-91.44" length="middle"/>
+<pin name="DTR" x="-5.08" y="-93.98" length="middle"/>
+<pin name="TXD" x="-5.08" y="-96.52" length="middle"/>
+<pin name="RXD" x="-5.08" y="-99.06" length="middle"/>
+<pin name="DBG_TXD" x="-5.08" y="-104.14" length="middle"/>
+<pin name="DBG_RXD" x="-5.08" y="-106.68" length="middle"/>
+<pin name="ADC0" x="-5.08" y="-111.76" length="middle"/>
+<pin name="ADC1" x="-5.08" y="-114.3" length="middle"/>
+<pin name="PCM_IN" x="60.96" y="-2.54" length="middle" rot="R180"/>
+<pin name="PCM_OUT" x="60.96" y="-5.08" length="middle" rot="R180"/>
+<pin name="PCM_SYNC" x="60.96" y="-7.62" length="middle" rot="R180"/>
+<pin name="PCM_CLK" x="60.96" y="-10.16" length="middle" rot="R180"/>
+<pin name="I2C_SCL" x="60.96" y="-15.24" length="middle" rot="R180"/>
+<pin name="I2C_SDA" x="60.96" y="-17.78" length="middle" rot="R180"/>
+<pin name="SDC2_DATA3" x="60.96" y="-22.86" length="middle" rot="R180"/>
+<pin name="SDC2_DATA2" x="60.96" y="-25.4" length="middle" rot="R180"/>
+<pin name="SDC2_DATA1" x="60.96" y="-27.94" length="middle" rot="R180"/>
+<pin name="SDC2_DATA0" x="60.96" y="-30.48" length="middle" rot="R180"/>
+<pin name="SDC2_CLK" x="60.96" y="-33.02" length="middle" rot="R180"/>
+<pin name="SDC2_CMD" x="60.96" y="-35.56" length="middle" rot="R180"/>
+<pin name="SD_INS_DET" x="60.96" y="-38.1" length="middle" rot="R180"/>
+<pin name="VDD_SDIO" x="60.96" y="-40.64" length="middle" rot="R180"/>
+<pin name="WLAN_SLP_CLK" x="60.96" y="-48.26" length="middle" rot="R180"/>
+<pin name="PM_ENABLE" x="60.96" y="-50.8" length="middle" rot="R180"/>
+<pin name="SDC1_DATA3" x="60.96" y="-53.34" length="middle" rot="R180"/>
+<pin name="SDC1_DATA2" x="60.96" y="-55.88" length="middle" rot="R180"/>
+<pin name="SDC1_DATA1" x="60.96" y="-58.42" length="middle" rot="R180"/>
+<pin name="SDC1_DATA0" x="60.96" y="-60.96" length="middle" rot="R180"/>
+<pin name="SDC1_CLK" x="60.96" y="-63.5" length="middle" rot="R180"/>
+<pin name="SDC1_CMD" x="60.96" y="-66.04" length="middle" rot="R180"/>
+<pin name="WAKE_ON_WIRELESS" x="60.96" y="-71.12" length="middle" rot="R180"/>
+<pin name="WLAN_EN" x="60.96" y="-45.72" length="middle" rot="R180"/>
+<pin name="COEX_UART_RX" x="60.96" y="-76.2" length="middle" rot="R180"/>
+<pin name="COEX_UART_TX" x="60.96" y="-78.74" length="middle" rot="R180"/>
+<pin name="BT_RTS" x="60.96" y="-83.82" length="middle" rot="R180"/>
+<pin name="BT_TXD" x="60.96" y="-86.36" length="middle" rot="R180"/>
+<pin name="BT_RXD" x="60.96" y="-88.9" length="middle" rot="R180"/>
+<pin name="BT_CTS" x="60.96" y="-91.44" length="middle" rot="R180"/>
+<pin name="BT_EN" x="60.96" y="-93.98" length="middle" rot="R180"/>
+<pin name="EPHY_RST_N" x="60.96" y="-99.06" length="middle" rot="R180"/>
+<pin name="EPHY_INT_N" x="60.96" y="-101.6" length="middle" rot="R180"/>
+<pin name="SGMII_MDATA" x="60.96" y="-104.14" length="middle" rot="R180"/>
+<pin name="SGMII_MCLK" x="60.96" y="-106.68" length="middle" rot="R180"/>
+<pin name="SGMII_TX_M" x="60.96" y="-109.22" length="middle" rot="R180"/>
+<pin name="SGMII_TX_P" x="60.96" y="-111.76" length="middle" rot="R180"/>
+<pin name="SGMII_RX_P" x="60.96" y="-114.3" length="middle" rot="R180"/>
+<pin name="SGMII_RX_M" x="60.96" y="-116.84" length="middle" rot="R180"/>
+<pin name="USIM2_VDD" x="60.96" y="-119.38" length="middle" rot="R180"/>
+<pin name="ANT_DIV" x="-5.08" y="-30.48" length="middle"/>
+<pin name="ANT_MAIN" x="-5.08" y="-33.02" length="middle"/>
+<pin name="ANT_GNSS" x="-5.08" y="-35.56" length="middle"/>
+<pin name="WAKEUP_IN" x="-5.08" y="-20.32" length="middle"/>
+<pin name="AP_READY" x="-5.08" y="-25.4" length="middle"/>
+<pin name="!W_DISABLE" x="-5.08" y="-22.86" length="middle"/>
+<pin name="USB_BOOT" x="-5.08" y="-50.8" length="middle"/>
+<pin name="RESERVED" x="60.96" y="-124.46" length="middle" rot="R180"/>
+<wire x1="0" y1="0" x2="55.88" y2="0" width="0.508" layer="94"/>
+<wire x1="55.88" y1="0" x2="55.88" y2="-127" width="0.508" layer="94"/>
+<wire x1="55.88" y1="-127" x2="0" y2="-127" width="0.508" layer="94"/>
+<wire x1="0" y1="-127" x2="0" y2="0" width="0.508" layer="94"/>
+<text x="0" y="2.54" size="2.54" layer="95" font="vector">&gt;NAME</text>
+<text x="0" y="-132.08" size="2.54" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
 <deviceset name="EC20CEFASG-MINIPCIE">
 <gates>
-<gate name="G$1" symbol="EC20-R2.1" x="-43.18" y="-38.1"/>
+<gate name="G$1" symbol="EC20-R2.1" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="EC20-R2.1">
 <connects>
+<connect gate="G$1" pin="!W_DISABLE" pad="4"/>
 <connect gate="G$1" pin="ADC0" pad="45"/>
 <connect gate="G$1" pin="ADC1" pad="44"/>
 <connect gate="G$1" pin="ANT_DIV" pad="35"/>
 <connect gate="G$1" pin="ANT_GNSS" pad="47"/>
 <connect gate="G$1" pin="ANT_MAIN" pad="49"/>
 <connect gate="G$1" pin="AP_READY" pad="2"/>
+<connect gate="G$1" pin="BT_CTS" pad="40"/>
+<connect gate="G$1" pin="BT_EN" pad="139"/>
+<connect gate="G$1" pin="BT_RTS" pad="37"/>
+<connect gate="G$1" pin="BT_RXD" pad="39"/>
+<connect gate="G$1" pin="BT_TXD" pad="38"/>
+<connect gate="G$1" pin="COEX_UART_RX" pad="137"/>
+<connect gate="G$1" pin="COEX_UART_TX" pad="138"/>
 <connect gate="G$1" pin="CTS" pad="64"/>
 <connect gate="G$1" pin="DBG_RXD" pad="11"/>
 <connect gate="G$1" pin="DBG_TXD" pad="12"/>
 <connect gate="G$1" pin="DCD" pad="63"/>
 <connect gate="G$1" pin="DTR" pad="66"/>
+<connect gate="G$1" pin="EPHY_INT_N" pad="120"/>
+<connect gate="G$1" pin="EPHY_RST_N" pad="119"/>
 <connect gate="G$1" pin="GND" pad="8 9 19 22 36 46 48 50 51 52 53 54 56 72 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112"/>
 <connect gate="G$1" pin="I2C_SCL" pad="41"/>
 <connect gate="G$1" pin="I2C_SDA" pad="42"/>
@@ -281,27 +327,53 @@
 <connect gate="G$1" pin="PCM_IN" pad="24"/>
 <connect gate="G$1" pin="PCM_OUT" pad="25"/>
 <connect gate="G$1" pin="PCM_SYNC" pad="26"/>
+<connect gate="G$1" pin="PM_ENABLE" pad="127"/>
 <connect gate="G$1" pin="PWRKEY" pad="21"/>
-<connect gate="G$1" pin="RESERVED" pad="3 13 18 23 28 29 30 31 32 33 34 37 38 39 40 43 55 113 114 115 116"/>
+<connect gate="G$1" pin="RESERVED" pad="3 18 43 55 113 114 116 117 140 141 142 143 144"/>
 <connect gate="G$1" pin="RESET_N" pad="20"/>
 <connect gate="G$1" pin="RI" pad="62"/>
 <connect gate="G$1" pin="RTS" pad="65"/>
 <connect gate="G$1" pin="RXD" pad="68"/>
+<connect gate="G$1" pin="SDC1_CLK" pad="133"/>
+<connect gate="G$1" pin="SDC1_CMD" pad="134"/>
+<connect gate="G$1" pin="SDC1_DATA0" pad="132"/>
+<connect gate="G$1" pin="SDC1_DATA1" pad="131"/>
+<connect gate="G$1" pin="SDC1_DATA2" pad="130"/>
+<connect gate="G$1" pin="SDC1_DATA3" pad="129"/>
+<connect gate="G$1" pin="SDC2_CLK" pad="32"/>
+<connect gate="G$1" pin="SDC2_CMD" pad="33"/>
+<connect gate="G$1" pin="SDC2_DATA0" pad="31"/>
+<connect gate="G$1" pin="SDC2_DATA1" pad="30"/>
+<connect gate="G$1" pin="SDC2_DATA2" pad="29"/>
+<connect gate="G$1" pin="SDC2_DATA3" pad="28"/>
+<connect gate="G$1" pin="SD_INS_DET" pad="23"/>
+<connect gate="G$1" pin="SGMII_MCLK" pad="122"/>
+<connect gate="G$1" pin="SGMII_MDATA" pad="121"/>
+<connect gate="G$1" pin="SGMII_RX_M" pad="126"/>
+<connect gate="G$1" pin="SGMII_RX_P" pad="125"/>
+<connect gate="G$1" pin="SGMII_TX_M" pad="123"/>
+<connect gate="G$1" pin="SGMII_TX_P" pad="124"/>
 <connect gate="G$1" pin="STATUS" pad="61"/>
 <connect gate="G$1" pin="TXD" pad="67"/>
+<connect gate="G$1" pin="USB_BOOT" pad="115"/>
 <connect gate="G$1" pin="USB_DM" pad="70"/>
 <connect gate="G$1" pin="USB_DP" pad="69"/>
 <connect gate="G$1" pin="USB_VBUS" pad="71"/>
+<connect gate="G$1" pin="USIM2_VDD" pad="128"/>
 <connect gate="G$1" pin="USIM_CLK" pad="16"/>
 <connect gate="G$1" pin="USIM_DATA" pad="15"/>
 <connect gate="G$1" pin="USIM_GND" pad="10"/>
+<connect gate="G$1" pin="USIM_PRESENCE" pad="13"/>
 <connect gate="G$1" pin="USIM_RST" pad="17"/>
 <connect gate="G$1" pin="USIM_VDD" pad="14"/>
 <connect gate="G$1" pin="VBAT_BB" pad="59 60"/>
 <connect gate="G$1" pin="VBAT_RF" pad="57 58"/>
 <connect gate="G$1" pin="VDD_EXT" pad="7"/>
+<connect gate="G$1" pin="VDD_SDIO" pad="34"/>
 <connect gate="G$1" pin="WAKEUP_IN" pad="1"/>
-<connect gate="G$1" pin="W_DISABLE#" pad="4"/>
+<connect gate="G$1" pin="WAKE_ON_WIRELESS" pad="135"/>
+<connect gate="G$1" pin="WLAN_EN" pad="136"/>
+<connect gate="G$1" pin="WLAN_SLP_CLK" pad="118"/>
 </connects>
 <technologies>
 <technology name=""/>
