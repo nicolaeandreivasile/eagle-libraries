@@ -93,16 +93,46 @@
 <text x="-2.5" y="3.7" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.5" y="-4.9" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="SOT-666">
+<smd name="1" x="-0.5" y="-0.805" dx="0.99" dy="0.3" layer="1" locked="yes" rot="R90"/>
+<smd name="2" x="0" y="-0.805" dx="0.99" dy="0.3" layer="1" locked="yes" rot="R90"/>
+<smd name="3" x="0.5" y="-0.805" dx="0.99" dy="0.3" layer="1" locked="yes" rot="R90"/>
+<smd name="4" x="0.5" y="0.805" dx="0.99" dy="0.3" layer="1" locked="yes" rot="R90"/>
+<smd name="5" x="0" y="0.805" dx="0.99" dy="0.3" layer="1" locked="yes" rot="R90"/>
+<smd name="6" x="-0.5" y="0.805" dx="0.99" dy="0.3" layer="1" locked="yes" rot="R90"/>
+<wire x1="-0.8" y1="0.8" x2="0.8" y2="0.8" width="0.15" layer="21" locked="yes"/>
+<wire x1="0.8" y1="0.8" x2="0.8" y2="-0.8" width="0.15" layer="21" locked="yes"/>
+<wire x1="0.8" y1="-0.8" x2="-0.8" y2="-0.8" width="0.15" layer="21" locked="yes"/>
+<wire x1="-0.8" y1="-0.8" x2="-0.8" y2="0.8" width="0.15" layer="21" locked="yes"/>
+<circle x="-1" y="-1.2" locked="yes" radius="0.1" width="0.2" layer="21"/>
+<text x="-0.8" y="1.6" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.8" y="-2.8" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SOT-666IP">
+<smd name="1" x="-0.5" y="-0.805" dx="0.99" dy="0.3" layer="1" locked="yes" rot="R90"/>
+<smd name="2" x="0" y="-0.6" dx="1.4" dy="0.3" layer="1" locked="yes" rot="R90"/>
+<smd name="3" x="0.5" y="-0.805" dx="0.99" dy="0.3" layer="1" locked="yes" rot="R90"/>
+<smd name="4" x="0.5" y="0.805" dx="0.99" dy="0.3" layer="1" locked="yes" rot="R90"/>
+<smd name="5" x="0" y="0.805" dx="0.99" dy="0.3" layer="1" locked="yes" rot="R90"/>
+<smd name="6" x="-0.5" y="0.805" dx="0.99" dy="0.3" layer="1" locked="yes" rot="R90"/>
+<wire x1="-0.8" y1="0.8" x2="0.8" y2="0.8" width="0.15" layer="21" locked="yes"/>
+<wire x1="0.8" y1="0.8" x2="0.8" y2="-0.8" width="0.15" layer="21" locked="yes"/>
+<wire x1="0.8" y1="-0.8" x2="-0.8" y2="-0.8" width="0.15" layer="21" locked="yes"/>
+<wire x1="-0.8" y1="-0.8" x2="-0.8" y2="0.8" width="0.15" layer="21" locked="yes"/>
+<circle x="-1" y="-1.2" locked="yes" radius="0.1" width="0.2" layer="21"/>
+<text x="-0.8" y="1.6" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.8" y="-2.8" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="M95M01-D">
 <pin name="VSS" x="-5.08" y="-10.16" length="middle"/>
-<pin name="W#" x="-5.08" y="-7.62" length="middle"/>
+<pin name="!W" x="-5.08" y="-7.62" length="middle"/>
 <pin name="Q" x="-5.08" y="-5.08" length="middle"/>
-<pin name="S#" x="-5.08" y="-2.54" length="middle"/>
+<pin name="!S" x="-5.08" y="-2.54" length="middle"/>
 <pin name="D" x="25.4" y="-10.16" length="middle" rot="R180"/>
 <pin name="C" x="25.4" y="-7.62" length="middle" rot="R180"/>
-<pin name="HOLD#" x="25.4" y="-5.08" length="middle" rot="R180"/>
+<pin name="!HOLD" x="25.4" y="-5.08" length="middle" rot="R180"/>
 <pin name="VCC" x="25.4" y="-2.54" length="middle" rot="R180"/>
 <wire x1="0" y1="0" x2="0" y2="-12.7" width="0.508" layer="94"/>
 <wire x1="0" y1="-12.7" x2="20.32" y2="-12.7" width="0.508" layer="94"/>
@@ -110,6 +140,56 @@
 <wire x1="20.32" y1="0" x2="0" y2="0" width="0.508" layer="94"/>
 <text x="0" y="2.54" size="2.54" layer="95" font="vector">&gt;NAME</text>
 <text x="0" y="-17.78" size="2.54" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
+<symbol name="ESDA-4CHANNEL">
+<pin name="I/O1" x="-5.08" y="-2.54" length="middle"/>
+<pin name="GND@1" x="-5.08" y="-5.08" length="middle"/>
+<pin name="I/O2" x="-5.08" y="-7.62" length="middle"/>
+<pin name="I/O4" x="30.48" y="-2.54" length="middle" rot="R180"/>
+<pin name="GND@2" x="30.48" y="-5.08" length="middle" rot="R180"/>
+<pin name="I/O3" x="30.48" y="-7.62" length="middle" rot="R180"/>
+<wire x1="0" y1="0" x2="0" y2="-10.16" width="0.508" layer="94"/>
+<wire x1="0" y1="-10.16" x2="25.4" y2="-10.16" width="0.508" layer="94"/>
+<wire x1="25.4" y1="-10.16" x2="25.4" y2="0" width="0.508" layer="94"/>
+<wire x1="25.4" y1="0" x2="0" y2="0" width="0.508" layer="94"/>
+<text x="0" y="2.54" size="2.54" layer="95" font="vector">&gt;NAME</text>
+<text x="0" y="-15.24" size="2.54" layer="96" font="vector">&gt;VALUE</text>
+<wire x1="7.62" y1="-2.54" x2="9.525" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-2.54" x2="15.875" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="10.795" y1="-2.54" x2="12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-5.08" x2="12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-5.08" x2="17.78" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="14.605" y1="-2.54" x2="12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-7.62" x2="15.875" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="14.605" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="9.525" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.795" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.795" y1="-1.905" x2="10.795" y2="-3.175" width="0.254" layer="94"/>
+<wire x1="10.795" y1="-3.175" x2="9.525" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="9.525" y1="-2.54" x2="10.795" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="9.525" y1="-1.905" x2="9.525" y2="-3.175" width="0.254" layer="94"/>
+<wire x1="9.525" y1="-3.175" x2="9.8425" y2="-3.175" width="0.254" layer="94"/>
+<wire x1="9.525" y1="-1.905" x2="9.2075" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="14.605" y1="-1.905" x2="14.605" y2="-3.175" width="0.254" layer="94"/>
+<wire x1="14.605" y1="-3.175" x2="15.875" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="15.875" y1="-2.54" x2="14.605" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="15.5575" y1="-1.905" x2="15.875" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="15.875" y1="-1.905" x2="15.875" y2="-3.175" width="0.254" layer="94"/>
+<wire x1="15.875" y1="-3.175" x2="16.1925" y2="-3.175" width="0.254" layer="94"/>
+<wire x1="14.605" y1="-6.985" x2="14.605" y2="-8.255" width="0.254" layer="94"/>
+<wire x1="14.605" y1="-8.255" x2="15.875" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="15.875" y1="-7.62" x2="14.605" y2="-6.985" width="0.254" layer="94"/>
+<wire x1="15.5575" y1="-6.985" x2="15.875" y2="-6.985" width="0.254" layer="94"/>
+<wire x1="15.875" y1="-6.985" x2="15.875" y2="-8.255" width="0.254" layer="94"/>
+<wire x1="15.875" y1="-8.255" x2="16.1925" y2="-8.255" width="0.254" layer="94"/>
+<wire x1="10.795" y1="-6.985" x2="10.795" y2="-8.255" width="0.254" layer="94"/>
+<wire x1="10.795" y1="-8.255" x2="9.525" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="9.525" y1="-7.62" x2="10.795" y2="-6.985" width="0.254" layer="94"/>
+<wire x1="9.2075" y1="-6.985" x2="9.525" y2="-6.985" width="0.254" layer="94"/>
+<wire x1="9.525" y1="-6.985" x2="9.525" y2="-8.255" width="0.254" layer="94"/>
+<wire x1="9.525" y1="-8.255" x2="9.8425" y2="-8.255" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -121,14 +201,14 @@
 <devices>
 <device name="" package="TSSOP-8">
 <connects>
+<connect gate="G$1" pin="!HOLD" pad="7"/>
+<connect gate="G$1" pin="!S" pad="1"/>
+<connect gate="G$1" pin="!W" pad="3"/>
 <connect gate="G$1" pin="C" pad="6"/>
 <connect gate="G$1" pin="D" pad="5"/>
-<connect gate="G$1" pin="HOLD#" pad="7"/>
 <connect gate="G$1" pin="Q" pad="2"/>
-<connect gate="G$1" pin="S#" pad="1"/>
 <connect gate="G$1" pin="VCC" pad="8"/>
 <connect gate="G$1" pin="VSS" pad="4"/>
-<connect gate="G$1" pin="W#" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -144,14 +224,34 @@
 <devices>
 <device name="" package="SO8">
 <connects>
+<connect gate="G$1" pin="!HOLD" pad="7"/>
+<connect gate="G$1" pin="!S" pad="1"/>
+<connect gate="G$1" pin="!W" pad="3"/>
 <connect gate="G$1" pin="C" pad="6"/>
 <connect gate="G$1" pin="D" pad="5"/>
-<connect gate="G$1" pin="HOLD#" pad="7"/>
 <connect gate="G$1" pin="Q" pad="2"/>
-<connect gate="G$1" pin="S#" pad="1"/>
 <connect gate="G$1" pin="VCC" pad="8"/>
 <connect gate="G$1" pin="VSS" pad="4"/>
-<connect gate="G$1" pin="W#" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ESDA6V1P6">
+<gates>
+<gate name="G$1" symbol="ESDA-4CHANNEL" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="SOT-666">
+<connects>
+<connect gate="G$1" pin="GND@1" pad="2"/>
+<connect gate="G$1" pin="GND@2" pad="5"/>
+<connect gate="G$1" pin="I/O1" pad="1"/>
+<connect gate="G$1" pin="I/O2" pad="3"/>
+<connect gate="G$1" pin="I/O3" pad="4"/>
+<connect gate="G$1" pin="I/O4" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>

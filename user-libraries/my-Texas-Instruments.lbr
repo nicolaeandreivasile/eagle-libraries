@@ -79,7 +79,7 @@
 <symbols>
 <symbol name="LM2576">
 <pin name="VIN" x="-5.08" y="-2.54" length="middle"/>
-<pin name="ON#/OFF" x="-5.08" y="-5.08" length="middle"/>
+<pin name="!ON!/OFF" x="-5.08" y="-5.08" length="middle"/>
 <pin name="P_GND" x="-5.08" y="-7.62" length="middle"/>
 <pin name="VOUT" x="27.94" y="-5.08" length="middle" rot="R180"/>
 <pin name="FB" x="27.94" y="-2.54" length="middle" rot="R180"/>
@@ -101,9 +101,9 @@
 <devices>
 <device name="" package="TO-263-5">
 <connects>
+<connect gate="G$1" pin="!ON!/OFF" pad="5"/>
 <connect gate="G$1" pin="FB" pad="4"/>
 <connect gate="G$1" pin="GND" pad="3"/>
-<connect gate="G$1" pin="ON#/OFF" pad="5"/>
 <connect gate="G$1" pin="P_GND" pad="6 7"/>
 <connect gate="G$1" pin="VIN" pad="1"/>
 <connect gate="G$1" pin="VOUT" pad="2"/>
