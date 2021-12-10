@@ -23,8 +23,10 @@
 1. **48L256T-I/SN** - SRAM Serial SRAM with Nonvolatile bits, 256K bit SPI
 2. **48L512T-I/SN** - SRAM Serial SRAM with Nonvolatile bits, 512K bit SPI
 3. **KSZ8081MNXIA-TR** - Ethernet ICs 10/100 BASE-TX Physical Layer Transceiver
-4. **MCP7940M-I/SN** - Real Time Clock I2C RTCC 64B SRAM No VBAT
-5. **MCP7940N-I/SN** - Real Time Clock I2C GP RTCC 64B SRAM
+4. **MCP73831T-2DCI/MC** - Battery Management Charge mgnt contr
+5. **MCP73831T-2DCI/OT** - Battery Management Charge mgnt contr
+6. **MCP7940M-I/SN** - Real Time Clock I2C RTCC 64B SRAM No VBAT
+7. **MCP7940N-I/SN** - Real Time Clock I2C GP RTCC 64B SRAM
 
 ## Molex
 1. **104224-0820** - Memory Card Connectors nanoSIM 1.11mm Card Conn 6Ckt Push/Pull
