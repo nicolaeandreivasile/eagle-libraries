@@ -31,6 +31,7 @@
 ## Molex
 1. **104224-0820** - Memory Card Connectors nanoSIM 1.11mm Card Conn 6Ckt Push/Pull
 2. **78646-3001** - Memory Card Connectors MICRO SIM CON ASSY 1.45HT PUSHPULL 6CKT (in progress)
+
 ## Quectel
 1. **EC20CEFASG-MINIPCIE** - Sub-GHz Modules CAT 4
 
@@ -49,3 +50,6 @@
 
 ## Wurth Elektronik
 1. **150202M153130** - Standard LEDs - SMD WL-SFTD Diffsd TopVw RGB 3.2V 20mA 635nm
+2. **7499010121A** - LAN-Transformer WE-RJ45LAN 10/100BaseT
+3. **7499011222A** - LAN-Transformer WE-RJ45LAN 10/100BaseT
+4. **74990112116A** - LAN-Transformer WE-RJ45LAN 10/100BaseT
