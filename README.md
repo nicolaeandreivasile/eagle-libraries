@@ -1,5 +1,9 @@
 # EAGLE user-defined libraries
 
+## Power Symbols
+* Voltage supply symbols
+* Ground symbols
+
 ## Bourns
 1. **SDR1005-101KL** - Fixed Inductors 100uH 10% SMD 1005
 
