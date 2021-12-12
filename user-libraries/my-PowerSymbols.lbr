@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -50,7 +50,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -61,24 +61,72 @@
 <packages>
 </packages>
 <symbols>
-<symbol name="V+">
-<wire x1="0" y1="0" x2="-0.635" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
-<text x="0" y="0.635" size="1.778" layer="96" font="vector" align="bottom-center">&gt;VALUE</text>
-<pin name="1" x="0" y="-2.54" visible="off" length="short" rot="R90"/>
-</symbol>
 <symbol name="GND">
 <wire x1="0" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
 <text x="0" y="-0.635" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
-<pin name="1" x="0" y="2.54" visible="off" length="short" rot="R270"/>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" rot="R270"/>
+</symbol>
+<symbol name="1.8V">
+<wire x1="0" y1="0" x2="-0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<text x="0" y="0.635" size="1.778" layer="96" font="vector" align="bottom-center">&gt;VALUE</text>
+<pin name="1.8V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="3.3V">
+<wire x1="0" y1="0" x2="-0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<text x="0" y="0.635" size="1.778" layer="96" font="vector" align="bottom-center">&gt;VALUE</text>
+<pin name="3.3V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="5V">
+<wire x1="0" y1="0" x2="-0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<text x="0" y="0.635" size="1.778" layer="96" font="vector" align="bottom-center">&gt;VALUE</text>
+<pin name="5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="12V">
+<wire x1="0" y1="0" x2="-0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<text x="0" y="0.635" size="1.778" layer="96" font="vector" align="bottom-center">&gt;VALUE</text>
+<pin name="12V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="24V">
+<wire x1="0" y1="0" x2="-0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<text x="0" y="0.635" size="1.778" layer="96" font="vector" align="bottom-center">&gt;VALUE</text>
+<pin name="24V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="VCC">
+<wire x1="0" y1="0" x2="-0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<text x="0" y="0.635" size="1.778" layer="96" font="vector" align="bottom-center">&gt;VALUE</text>
+<pin name="VCC" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="VCCA">
+<wire x1="0" y1="0" x2="-0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<text x="0" y="0.635" size="1.778" layer="96" font="vector" align="bottom-center">&gt;VALUE</text>
+<pin name="VCCA" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="VDD">
+<wire x1="0" y1="0" x2="-0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<text x="0" y="0.635" size="1.778" layer="96" font="vector" align="bottom-center">&gt;VALUE</text>
+<pin name="VDD" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="VDDA">
+<wire x1="0" y1="0" x2="-0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<text x="0" y="0.635" size="1.778" layer="96" font="vector" align="bottom-center">&gt;VALUE</text>
+<pin name="VDDA" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
 <deviceset name="3.3V">
 <description>3.3V power supply</description>
 <gates>
-<gate name="G$1" symbol="V+" x="0" y="0"/>
+<gate name="G$1" symbol="3.3V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -91,7 +139,7 @@
 <deviceset name="1.8V">
 <description>1.8V power supply</description>
 <gates>
-<gate name="G$1" symbol="V+" x="0" y="0"/>
+<gate name="G$1" symbol="1.8V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -104,7 +152,7 @@
 <deviceset name="5V">
 <description>5V power supply</description>
 <gates>
-<gate name="G$1" symbol="V+" x="0" y="0"/>
+<gate name="G$1" symbol="5V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -117,7 +165,7 @@
 <deviceset name="12V">
 <description>12V power supply</description>
 <gates>
-<gate name="G$1" symbol="V+" x="0" y="0"/>
+<gate name="G$1" symbol="12V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -130,7 +178,7 @@
 <deviceset name="24V">
 <description>24V power supply</description>
 <gates>
-<gate name="G$1" symbol="V+" x="0" y="0"/>
+<gate name="G$2" symbol="24V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -155,7 +203,7 @@
 <deviceset name="VCC">
 <description>Voltage source (for BJT devices - collector)</description>
 <gates>
-<gate name="G$1" symbol="V+" x="0" y="0"/>
+<gate name="G$1" symbol="VCC" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -168,7 +216,7 @@
 <deviceset name="VDD">
 <description>Voltage source (for CMOS devices - drain)</description>
 <gates>
-<gate name="G$1" symbol="V+" x="0" y="0"/>
+<gate name="G$2" symbol="VDD" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -181,7 +229,7 @@
 <deviceset name="VCCA">
 <description>Analog VCC</description>
 <gates>
-<gate name="G$1" symbol="V+" x="0" y="0"/>
+<gate name="G$1" symbol="VCCA" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -194,7 +242,7 @@
 <deviceset name="VDDA">
 <description>Analog VDD</description>
 <gates>
-<gate name="G$1" symbol="V+" x="0" y="0"/>
+<gate name="G$1" symbol="VDDA" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
