@@ -31,6 +31,7 @@
 5. **MCP73831T-2DCI/OT** - Battery Management Charge mgnt contr
 6. **MCP7940M-I/SN** - Real Time Clock I2C RTCC 64B SRAM No VBAT
 7. **MCP7940N-I/SN** - Real Time Clock I2C GP RTCC 64B SRAM
+8. **LAN8720A-CP** - Ethernet ICs RMII 10/100 ETH XCVR w/HP AutoMDIXSupport
 
 ## Molex
 1. **104224-0820** - Memory Card Connectors nanoSIM 1.11mm Card Conn 6Ckt Push/Pull
