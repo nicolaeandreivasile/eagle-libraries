@@ -10,6 +10,9 @@
 ## Coilcraft
 1. **LPS3015-222MRC** - Fixed Inductors 2.2uH Shld 20% 110mOhms AECQ2
 
+## Diodes Incorporated
+1. **FL2500213Z** - Crystals 25.000MHz 20pF 20ppm -40 to +85
+
 ## Eagle Plastic Devices
 1. **12BHC186CLP-GR** - Cylindrical Battery Contacts, Clips, Holders & Springs 18650 Holder Board Mount Clip
 
