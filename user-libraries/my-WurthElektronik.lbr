@@ -720,13 +720,13 @@
 <connect gate="G$1" pin="GREEN-" pad="9"/>
 <connect gate="G$1" pin="NC" pad="7"/>
 <connect gate="G$1" pin="RCT" pad="5"/>
-<connect gate="G$1" pin="RD+" pad="4"/>
+<connect gate="G$1" pin="RD+" pad="3"/>
 <connect gate="G$1" pin="RD-" pad="6"/>
 <connect gate="G$1" pin="SHIELD@1" pad="13"/>
 <connect gate="G$1" pin="SHIELD@2" pad="14"/>
-<connect gate="G$1" pin="TCT" pad="2"/>
+<connect gate="G$1" pin="TCT" pad="4"/>
 <connect gate="G$1" pin="TD+" pad="1"/>
-<connect gate="G$1" pin="TD-" pad="3"/>
+<connect gate="G$1" pin="TD-" pad="2"/>
 <connect gate="G$1" pin="YELLOW+" pad="12"/>
 <connect gate="G$1" pin="YELLOW-" pad="11"/>
 </connects>
@@ -749,13 +749,13 @@
 <connect gate="G$1" pin="GREEN-" pad="11"/>
 <connect gate="G$1" pin="NC" pad="7"/>
 <connect gate="G$1" pin="RCT" pad="5"/>
-<connect gate="G$1" pin="RD+" pad="4"/>
+<connect gate="G$1" pin="RD+" pad="3"/>
 <connect gate="G$1" pin="RD-" pad="6"/>
 <connect gate="G$1" pin="SHIELD@1" pad="13"/>
 <connect gate="G$1" pin="SHIELD@2" pad="14"/>
-<connect gate="G$1" pin="TCT" pad="2"/>
+<connect gate="G$1" pin="TCT" pad="4"/>
 <connect gate="G$1" pin="TD+" pad="1"/>
-<connect gate="G$1" pin="TD-" pad="3"/>
+<connect gate="G$1" pin="TD-" pad="2"/>
 <connect gate="G$1" pin="YELLOW+" pad="10"/>
 <connect gate="G$1" pin="YELLOW-" pad="9"/>
 </connects>
@@ -780,13 +780,13 @@
 <connect gate="G$1" pin="GREEN-@2" pad="12"/>
 <connect gate="G$1" pin="NC" pad="7"/>
 <connect gate="G$1" pin="RCT" pad="5"/>
-<connect gate="G$1" pin="RD+" pad="4"/>
+<connect gate="G$1" pin="RD+" pad="3"/>
 <connect gate="G$1" pin="RD-" pad="6"/>
 <connect gate="G$1" pin="SHIELD@1" pad="13"/>
 <connect gate="G$1" pin="SHIELD@2" pad="14"/>
-<connect gate="G$1" pin="TCT" pad="2"/>
+<connect gate="G$1" pin="TCT" pad="4"/>
 <connect gate="G$1" pin="TD+" pad="1"/>
-<connect gate="G$1" pin="TD-" pad="3"/>
+<connect gate="G$1" pin="TD-" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
