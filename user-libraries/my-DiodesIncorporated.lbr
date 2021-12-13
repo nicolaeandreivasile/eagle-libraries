@@ -88,6 +88,7 @@
 </symbols>
 <devicesets>
 <deviceset name="FL2500213Z">
+<description>Crystals 25.000MHz 20pF 20ppm -40 to +85</description>
 <gates>
 <gate name="G$1" symbol="CRYSTAL-3X2.5MM" x="0" y="0"/>
 </gates>

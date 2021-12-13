@@ -18,7 +18,7 @@
 
 ## ECS Inc
 1. **ECS-.327-12.5-12QS-TR** - Crystals 32.786kHz 12.5pF 20ppm -40C +125C
-
+2. **ECS-250-20-30B-AEN-TR** - Crystals 25MHz 25ppm 20pF -40C +85C
 ## Epson Timing
 1. **FC-135 32.7680KA-AG0** - Crystals 32.768KHz 20ppm 7.0pF -40C +85C
 
