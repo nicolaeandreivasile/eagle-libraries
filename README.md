@@ -44,7 +44,8 @@
 1. **EC20CEFASG-MINIPCIE** - Sub-GHz Modules CAT 4
 
 ## ROHM Semiconductor
-1. **BD48E27G-TR** - Supervisory Circuits VOLTAGE DETECTOR
+1. **BD48E27G-TR** - Supervisory Circuits VOLTAGE DETECTOR. Vref = 2.7V
+2. **BD48E20G-TR** - Supervisory Circuits VOLTAGE DETECTOR. Vref = 3.0V
 
 ## STMicroelectronics
 1. **M95M01-DWDW3TP/K** - EEPROM Auto 1024Kb SPI bus EEPROM
