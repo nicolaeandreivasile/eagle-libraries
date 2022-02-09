@@ -97,6 +97,7 @@
 </symbols>
 <devicesets>
 <deviceset name="MAX3485CSA+T">
+<description>RS-422/RS-485 Interface IC 3.3V Powered, 10Mbps and Slew-Rate Limited, True RS-485/RS-422 Transceivers</description>
 <gates>
 <gate name="G$1" symbol="MAX348(3/5/6)" x="0" y="0"/>
 </gates>
