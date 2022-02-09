@@ -26,6 +26,9 @@
 1. **ESP32-U4WDH** - RF System on a Chip - SoC SMD IC WiFi Single Core BT Combo
 2. **ESP32-WROVER-E/IE** - WiFi Modules - 802.11 SMD Module ESP32-WROVER-E, ESP32-D0WD-V3, 3.3V 64Mbit PSRAM, 8/16 MB SPI flash, PCB Antenna
 
+## Maxim Integrated
+1. **MAX3485CSA+T** - RS-422/RS-485 Interface IC 3.3V Powered, 10Mbps and Slew-Rate Limited, True RS-485/RS-422 Transceivers
+
 ## Microchip Technology
 1. **48L256T-I/SN** - SRAM Serial SRAM with Nonvolatile bits, 256K bit SPI
 2. **48L512T-I/SN** - SRAM Serial SRAM with Nonvolatile bits, 512K bit SPI
