@@ -59,7 +59,7 @@
 </layers>
 <library>
 <packages>
-<package name="3X2.5MM">
+<package name="3.2X2.5MM">
 <smd name="1" x="-1.06" y="-0.8" dx="1.2" dy="1.5" layer="1" locked="yes" rot="R90"/>
 <smd name="2" x="1.06" y="-0.8" dx="1.2" dy="1.5" layer="1" locked="yes" rot="R90"/>
 <smd name="3" x="1.06" y="0.8" dx="1.2" dy="1.5" layer="1" locked="yes" rot="R90"/>
@@ -68,32 +68,32 @@
 <wire x1="1.6" y1="1.25" x2="1.6" y2="-1.25" width="0.15" layer="21" locked="yes"/>
 <wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.15" layer="21" locked="yes"/>
 <wire x1="-1.6" y1="-1.25" x2="1.6" y2="-1.25" width="0.15" layer="21" locked="yes"/>
-<text x="-1.6" y="1.7" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.6" y="-2.9" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-1.6" y="1.7" locked="yes" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.6" y="-2.9" locked="yes" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 <circle x="-2.1" y="-1.7" locked="yes" radius="0.1" width="0.2" layer="27"/>
 </package>
 </packages>
 <symbols>
-<symbol name="CRYSTAL-3X2.5MM">
-<pin name="XTAL1" x="-5.08" y="-2.54" length="middle"/>
-<pin name="XTAL2" x="25.4" y="-2.54" length="middle" rot="R180"/>
-<pin name="GND" x="10.16" y="-17.78" length="middle" rot="R90"/>
-<wire x1="0" y1="0" x2="0" y2="-12.7" width="0.508" layer="94"/>
-<wire x1="0" y1="-12.7" x2="20.32" y2="-12.7" width="0.508" layer="94"/>
-<wire x1="20.32" y1="-12.7" x2="20.32" y2="0" width="0.508" layer="94"/>
+<symbol name="FL">
+<pin name="XTAL1" x="-2.54" y="-2.54" visible="pin" length="short"/>
+<pin name="XTAL2" x="22.86" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="GND" x="22.86" y="-7.62" visible="pin" length="short" rot="R180"/>
+<wire x1="0" y1="0" x2="0" y2="-10.16" width="0.508" layer="94"/>
+<wire x1="0" y1="-10.16" x2="20.32" y2="-10.16" width="0.508" layer="94"/>
+<wire x1="20.32" y1="-10.16" x2="20.32" y2="0" width="0.508" layer="94"/>
 <wire x1="20.32" y1="0" x2="0" y2="0" width="0.508" layer="94"/>
 <text x="0" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="0" y="-17.78" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="0" y="-15.24" size="1.778" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
 <deviceset name="FL2500213Z">
 <description>Crystals 25.000MHz 20pF 20ppm -40 to +85</description>
 <gates>
-<gate name="G$1" symbol="CRYSTAL-3X2.5MM" x="0" y="0"/>
+<gate name="G$1" symbol="FL" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="3X2.5MM">
+<device name="" package="3.2X2.5MM">
 <connects>
 <connect gate="G$1" pin="GND" pad="2 4"/>
 <connect gate="G$1" pin="XTAL1" pad="1"/>

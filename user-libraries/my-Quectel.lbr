@@ -59,7 +59,7 @@
 </layers>
 <library>
 <packages>
-<package name="EC20-R2.1">
+<package name="EC21">
 <smd name="108" x="-8.2" y="9.6" dx="2" dy="3" layer="1" locked="yes" rot="R180"/>
 <smd name="109" x="-8.2" y="4.8" dx="2" dy="3" layer="1" locked="yes" rot="R180"/>
 <smd name="110" x="-8.2" y="0" dx="2" dy="3" layer="1" locked="yes" rot="R180"/>
@@ -169,8 +169,8 @@
 <smd name="3" x="-15.75" y="10" dx="2.5" dy="0.8" layer="1" locked="yes" rot="R180"/>
 <smd name="2" x="-15.75" y="11.3" dx="2.5" dy="0.8" layer="1" locked="yes" rot="R180"/>
 <smd name="1" x="-15.75" y="12.6" dx="2.5" dy="0.8" layer="1" locked="yes" rot="R180"/>
-<text x="-16" y="15.8" size="1.27" layer="21">&gt;NAME</text>
-<text x="-16" y="-17" size="1.27" layer="21">&gt;VALUE</text>
+<text x="-16" y="15.8" locked="yes" size="1.27" layer="21" font="vector">&gt;NAME</text>
+<text x="-16" y="-17" locked="yes" size="1.27" layer="21" font="vector">&gt;VALUE</text>
 <smd name="142" x="-15.75" y="1.7" dx="2.5" dy="0.8" layer="1" locked="yes" rot="R180"/>
 <smd name="141" x="-15.75" y="3" dx="2.5" dy="0.8" layer="1" locked="yes" rot="R180"/>
 <smd name="143" x="15.75" y="1.7" dx="2.5" dy="0.8" layer="1" locked="yes" rot="R180"/>
@@ -203,7 +203,7 @@
 </package>
 </packages>
 <symbols>
-<symbol name="EC20-R2.1">
+<symbol name="EC2X">
 <pin name="VBAT_BB" x="-5.08" y="-2.54" length="middle"/>
 <pin name="VBAT_RF" x="-5.08" y="-5.08" length="middle"/>
 <pin name="VDD_EXT" x="-5.08" y="-7.62" length="middle"/>
@@ -292,10 +292,10 @@
 <devicesets>
 <deviceset name="EC20CEFASG-MINIPCIE">
 <gates>
-<gate name="G$1" symbol="EC20-R2.1" x="0" y="0"/>
+<gate name="G$1" symbol="EC2X" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="EC20-R2.1">
+<device name="" package="EC21">
 <connects>
 <connect gate="G$1" pin="!W_DISABLE" pad="4"/>
 <connect gate="G$1" pin="ADC0" pad="45"/>

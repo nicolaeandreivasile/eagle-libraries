@@ -81,11 +81,22 @@
 <text x="-2.5" y="2" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.5" y="-3.2" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="3.2X1.5MM">
+<smd name="1" x="-1.25" y="0" dx="1.1" dy="1.9" layer="1" locked="yes"/>
+<smd name="2" x="1.25" y="0" dx="1.1" dy="1.9" layer="1" locked="yes"/>
+<wire x1="-1.6" y1="0.8" x2="-1.6" y2="-0.8" width="0.15" layer="21" locked="yes"/>
+<wire x1="-1.6" y1="-0.8" x2="1.6" y2="-0.8" width="0.15" layer="21" locked="yes"/>
+<wire x1="1.6" y1="-0.8" x2="1.6" y2="0.8" width="0.15" layer="21" locked="yes"/>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.15" layer="21" locked="yes"/>
+<circle x="-2.2" y="0.8" locked="yes" radius="0.1" width="0.2" layer="21"/>
+<text x="-2.54" y="-2.54" size="1.27" layer="21">&gt;VALUE</text>
+<text x="-2.54" y="1.27" size="1.27" layer="21">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ECS-.327">
-<pin name="P$1" x="-2.54" y="0" visible="off" length="short"/>
-<pin name="P$2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+<pin name="1" x="-2.54" y="0" visible="off" length="short"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
 <wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="0.635" y1="2.54" x2="1.905" y2="2.54" width="0.254" layer="94"/>
@@ -116,8 +127,8 @@
 <devices>
 <device name="" package="2X1.2MM">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -136,6 +147,22 @@
 <connect gate="G$1" pin="GND" pad="2 4"/>
 <connect gate="G$1" pin="XTAL1" pad="1"/>
 <connect gate="G$1" pin="XTAL2" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ECS-.327-7-34B-C-TR">
+<gates>
+<gate name="G$1" symbol="ECS-.327" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="3.2X1.5MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
